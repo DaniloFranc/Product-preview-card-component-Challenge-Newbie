@@ -1,0 +1,327 @@
+@media (min-width: 375px) {
+
+
+
+    body{
+        background-color: hsl(30, 38%, 92%) ;
+    }
+
+    .figura{
+
+        display: flex;
+        justify-content: center;    
+        width: 300px;
+        height: 500px;
+        margin-left: 250px;
+        border-radius: 15px 0px 0px 15px;
+        
+    }
+
+    .caixaGeral{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 100px;
+
+    }
+
+    .caixaBranca{
+
+        background-color: hsl(0, 0%, 100%);
+        margin-right: 200px;
+        padding: 25px;        
+        border-radius: 0px 15px 15px 0px;
+    
+    }
+
+    .alinPreco{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 30px;
+
+    }
+
+    .space{
+
+        width: 20px;
+
+    }
+
+    .text1{
+        font-family: 'Montserrat'; 
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+    }
+
+    .text21{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .text22{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .text2Baixo{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .text31{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text32{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text33{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text34{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+
+    .preco1{   
+
+        color: hsl(158, 36%, 37%);
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+
+    }
+
+    .preco2{
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-top: 10px;
+
+    }
+
+    .botao{
+        
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        color: hsl(0, 0%, 100%);
+        font-size: 15px;
+        padding: 20px;
+        width: 270px;
+        margin-left: -4px;
+        margin-top: 35px;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+
+    }
+
+    .alinPreco{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .carrinho{
+
+        margin-right: 10px;
+
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    body{
+        background-color: hsl(30, 38%, 92%) ;
+    }
+
+    .caixaGeral{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+
+    .figura{
+
+        width: 350px;
+        height: 250px;
+        margin-top: 10px;
+        z-index: 2;
+        border-radius: 12px 12px 0px 0px;  
+
+    }
+
+    .caixaBranca{
+
+        width: 310px;
+        height: 370px;        
+        background-color: hsl(0, 0%, 100%);         
+        border-radius: 0px 0px 12px 12px;        
+        padding: 20px;
+        margin-top: -10px;
+        z-index: 1;        
+    
+    }
+
+    .botao{
+        
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        color: hsl(0, 0%, 100%);
+        font-size: 15px;
+        padding: 15px;
+        width: 310px;        
+        margin-top: 10px;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+
+    }
+
+    .text1{
+        font-family: 'Montserrat'; 
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+        
+    }
+
+    .text21{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .text22{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .text2Baixo{
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+
+    .text31{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text32{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text33{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .text34{
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    .preco1{
+
+        color: hsl(158, 36%, 37%);
+        font-weight: bold;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 35px;
+
+    }
+
+    .preco2{
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        font-family: 'Montserrat'; 
+        font-weight: 500;
+        margin-top: 10px;
+
+    }
+
+    .alinPreco{
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-top: 30px;
+
+    }
+
+    .space{
+
+        width: 20px;
+
+    }
+
+    .carrinho{
+        margin-right: 10px;
+    }
+
+
+}
